@@ -1,11 +1,14 @@
 <div class="row-fluid">
     <div class="col-xs-12 col-sm-12">
         <div class="product-filter">
-            <ul class="breadcrumb">
+            <!-- <ul class="breadcrumb">
                 <li>{{breadcrumbProduk(@$produk, '; <span>></span> ', ';', true, @$category, @$collection)}}</li>
-            </ul>
+            </ul> -->
             <div class="row">
-                <div class="col-xs-12 col-sm-7"><h1>Product</h1></div>
+                <div class="col-xs-12 center">
+                    <h1>Produk</h1>
+                    <hr>
+                </div>
                 <!-- <div class="col-xs-12 col-sm-2 label-filter">
                     <label class="control-label" for="input-sort">Sort By:</label>
                 </div>
@@ -28,7 +31,7 @@
         <div class="col-xs-12 col-sm-3 item">
             <a href="{{ product_url($myproduk) }}">
                 <div class="thumb">
-                    <img src="{{ URL::to(product_image_url($myproduk->gambar1, 'medium')) }}" class="img-responsive" alt="{{ $myproduk->nama }}" />
+                    <img src="{{ URL::to(product_image_url($myproduk->gambar1, 'medium')) }}" alt="{{ $myproduk->nama }}" />
                 </div>
 
                 <h1 class="product-name">{{ short_description($myproduk->nama, 50) }}</h1>

@@ -5,7 +5,7 @@
                 <h1 class="form-title">Create Account</h1>
             </div>
             <div class="form-group">
-                <input type="text" name="nama" placeholder="Nama" value="{{ Input::old('nama') }}" autofocus required >
+                <input type="text" name="nama" placeholder="Name" value="{{ Input::old('nama') }}" autofocus required >
             </div>
             <div class="form-group">
                 <input type="email" name="email" placeholder="Email" value="{{ Input::old('email') }}" required >

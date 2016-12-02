@@ -1,34 +1,34 @@
 <div class="row-fluid">
-    <ul class="breadcrumb">
+    <!-- <ul class="breadcrumb">
         <li>{{ breadcrumbProduk(@$produk, '; <span>></span> ', ';', true, @$category, @$collection) }}</li>
-    </ul>
+    </ul> -->
     <div class="col-sm-6">
         <div id="slider" class="flexslider">
             <ul class="slides">
                 @if($produk->gambar1!='') 
                 <li>
-                    <a href="{{ url(product_image_url($produk->gambar1,'large')) }}">
+                    <a href="{{ url(product_image_url($produk->gambar1,'large')) }}" title="{{ $produk->nama }}">
                         <img src="{{ url(product_image_url($produk->gambar1,'medium')) }}" />
                     </a>
                 </li>
                 @endif
                 @if($produk->gambar2!='') 
                 <li>
-                    <a href="{{ url(product_image_url($produk->gambar2,'large')) }}">
+                    <a href="{{ url(product_image_url($produk->gambar2,'large')) }}" title="{{ $produk->nama }}">
                         <img src="{{ url(product_image_url($produk->gambar2,'medium')) }}" />
                     </a>
                 </li>
                 @endif
                 @if($produk->gambar3!='') 
                 <li>
-                    <a href="{{ url(product_image_url($produk->gambar3,'large')) }}">
+                    <a href="{{ url(product_image_url($produk->gambar3,'large')) }}" title="{{ $produk->nama }}">
                         <img src="{{ url(product_image_url($produk->gambar3,'medium')) }}" />
                     </a>
                 </li>
                 @endif
                 @if($produk->gambar4!='') 
                 <li>
-                    <a href="{{ url(product_image_url($produk->gambar4,'large')) }}">
+                    <a href="{{ url(product_image_url($produk->gambar4,'large')) }}" title="{{ $produk->nama }}">
                         <img src="{{ url(product_image_url($produk->gambar4,'medium')) }}" />
                     </a>
                 </li>
@@ -99,6 +99,7 @@
 </div>
 <div class="row-fluid">
     <div class="col-sm-12">
+        <br>
         {{ pluginComment(product_url($produk), @$produk) }} 
     </div>
 </div>

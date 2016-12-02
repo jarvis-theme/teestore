@@ -3,7 +3,7 @@
             <div class="row-fluid footer">
                 <div class="col-xs-12 col-sm-12">
                     <div class="grid-item text-center">
-                        <h4>FOLLOW US</h4>
+                        <h4>Follow Us</h4>
                         <ul class="sosmed">
                             @if(!empty($kontak->fb))
                             <li>
@@ -62,12 +62,12 @@
                 </div>
                 <div class="col-xs-12 col-sm-12">
                     <div class="grid-item text-center">
-                        <p>{{ Theme::place('title') }} • {{ !empty($kontak->email) ? 'Email: '.$kontak->email : '' }} {{ !empty($kontak->telepon) ? ' ➕ Telp: '.$kontak->telepon : ''}} {{ !empty($kontak->hp) ? ' ➕ SMS/WA: '.$kontak->hp : ''}} {{ !empty($kontak->bb) ? ' ➕ BBM: '.$kontak->bb : ''}}</p>
+                        <p>{{ Theme::place('title') }} &#8226; {{ !empty($kontak->email) ? 'EMAIL: '.$kontak->email : '' }} {{ !empty($kontak->telepon) ? ' &#43; TELP: '.$kontak->telepon : ''}} {{ !empty($kontak->hp) ? ' &#43; SMS/WA: '.$kontak->hp : ''}} {{ !empty($kontak->bb) ? ' &#43; BBM: '.$kontak->bb : ''}}</p>
                     </div>
                 </div>
             </div>
             <hr class="clear">
-            <div class="row-fluid footer">
+            <div class="row-fluid">
                 <div class="col-xs-12 col-sm-12 text-center">
                     <p class="copyright">Copyright &copy; {{date('Y')}} {{ Theme::place('title') }}. Powered by <a href="http://jarvis-store.com" target="_blank">Jarvis Store</a></p>
                 </div>

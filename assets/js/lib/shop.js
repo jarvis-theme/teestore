@@ -37,7 +37,7 @@ $(document).ready(function() {
 	    showLabel: false,
 	    showCount: false,
 	    shareIn: "popup",
-	    shares: ["twitter", "facebook", "googleplus", "pinterest", "stumbleupon", "whatsapp"]
+	    shares: ["twitter", "facebook", "googleplus", "pinterest", "stumbleupon", "whatsapp", "line"]
 	});
 
     // Fancybox function
@@ -47,7 +47,7 @@ $(document).ready(function() {
         showLabel: false,
         showCount: false,
         shareIn: "popup",
-        shares: ["twitter", "facebook", "googleplus", "pinterest", "stumbleupon", "whatsapp"]
+        shares: ["twitter", "facebook", "googleplus", "pinterest", "stumbleupon", "whatsapp", "line"]
     });
 
     $('#thumb-slider').flexslider({

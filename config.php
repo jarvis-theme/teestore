@@ -49,7 +49,7 @@ return array(
 
     ),
     'num_display' => array(
-        'home_product'=>16,
+        'home_product'=>28,
         'main_product'=>16,
         'related_product'=>4,
         'latest_product'=>4,
@@ -59,9 +59,5 @@ return array(
         'testimonial'=>6
     ),    
     'banner' => true,
-    'themesColor' => array(
-        'type'=>false,
-        'warnaDef'=>false,
-        'color'=>false
-    ),
+    'themesColor' => false,
 );

@@ -1,6 +1,6 @@
 <div class="row-fluid">
     <div class="center">
-        <h1>Contact Us</h1>
+        <h1>Kontak</h1>
         <hr>
     </div>
     <div class="row-fluid">

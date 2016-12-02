@@ -5,7 +5,7 @@
             <div class="col-xs-12 col-sm-3 item">
                 <a href="{{ product_url($myproduk) }}">
                     <div class="thumb">
-                        <img src="{{ URL::to(product_image_url($myproduk->gambar1, 'medium')) }}" class="img-responsive" alt="{{ $myproduk->nama }}" />
+                        <img src="{{ URL::to(product_image_url($myproduk->gambar1, 'medium')) }}" alt="{{ $myproduk->nama }}" />
                     </div>
 
                     <h1 class="product-name">{{ short_description($myproduk->nama, 50) }}</h1>
