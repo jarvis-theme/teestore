@@ -7,4 +7,5 @@
 	<script type="text/javascript" src="{{ Config::get('aws.cdn2.endpoint').'/js/jquery.noty.js' }}"></script>
 	<script type="text/javascript" src="{{ Config::get('aws.cdn2.endpoint').'/js/jquery-ui.js' }}"></script>
 	<script type="text/javascript" src="{{ Config::get('aws.cdn2.endpoint').'/js/cart.js' }}"></script>
+	<script type="text/javascript" src="https://s3-ap-southeast-1.amazonaws.com/cdn2.jarvis-store.com/assets/teestore/assets/js/lib/shop.js"></script>
 	{{ generate_theme_js('teestore/assets/js/lib/shop.js') }}

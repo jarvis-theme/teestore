@@ -2,7 +2,7 @@ var dirTema = document.querySelector("meta[name='theme_path']").getAttribute('co
 
 require.config({
 	baseUrl: '/',
-    urlArgs: "v=001d",
+    urlArgs: "v=001a",
 	waitSeconds : 60,
 	shim: {
 		"bootstrap"	: {

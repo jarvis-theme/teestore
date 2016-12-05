@@ -32,7 +32,7 @@
                     </button>
                 </div>
                 <a href="{{ url('checkout') }}" id="shoppingcartplace">
-                    <span class="fa fa-shopping-cart icon-cart"></span> <small>{{ shopping_cart() }}</small>
+                    <span class="fa fa-shopping-cart icon-cart"></span>
                 </a>
                 <div id="navbar" class="text-left navbar-collapse collapse">
                     <ul class="nav navbar-nav mobile-nav">
