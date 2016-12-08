@@ -56,8 +56,9 @@ return array(
         'bestseller'=>4,
         'featured'=>4,
         'blog'=>5,
-        'testimonial'=>6
-    ),    
+        'testimonial'=>6,
+        'image_product'=>'medium'
+    ),
     'banner' => true,
     'themesColor' => false,
-);
+);  

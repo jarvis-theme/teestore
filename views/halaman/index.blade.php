@@ -3,8 +3,8 @@
     <hr>
 </div>
 <div class="col-xs-12 col-sm-12">
-    <section>
+    <article>
         <span class="highlight_text">{{ @$data->up }}</span>
         {{ $data->isi }}
-    </section>
+    </article>
 </div>
