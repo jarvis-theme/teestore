@@ -18,5 +18,4 @@
     <meta property="og:image"         content="{{@$img!='' ? product_image_url($img):''}}" />
     <meta name="theme_path" content="{{ theme_path() }}">
     <link rel="canonical" href="{{ URL::full() }}">
-    <link rel="canonical" href="{{ URL::full() }}">
-    {{ pluginHeader() }}
+    {{ pluginHeader() }} 
