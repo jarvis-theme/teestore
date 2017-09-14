@@ -86,7 +86,7 @@
             @endif
             <div class="form-group">
                 <label>Quantity</label>
-                <input type="number" value="1" name="qty" class="qty">
+                <input type="number" value="1" name="qty" class="qty" pattern="[0-9]">
             </div>
             <button type="submit" class="btn btn-form">Add to Cart</button>
         </form>

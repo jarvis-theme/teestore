@@ -56,7 +56,7 @@
             <div class="form-group">
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox" name="readme" value="1"> I agree to the <a href="{{ URL::to('service') }}" target="_blank">Terms of Use and Privacy Statement</a>.
+                        <input type="checkbox" name="readme" value="1" checked> I agree to the <a href="{{ URL::to('service') }}" target="_blank">Terms of Use and Privacy Statement</a>.
                     </label>
                 </div>
             </div>

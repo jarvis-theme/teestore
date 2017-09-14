@@ -2,7 +2,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     @if($tema->isiCss=='') 
-    {{ generate_theme_css('teestore/assets/css/style.css') }} 
+    {{ generate_theme_css('teestore/assets/css/style.css?v=002') }} 
     
     @else 
     {{ generate_theme_css('teestore/assets/css/editstyle.css') }} 

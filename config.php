@@ -49,15 +49,18 @@ return array(
 
     ),
     'num_display' => array(
-        'home_product'=>28,
-        'main_product'=>16,
-        'related_product'=>4,
-        'latest_product'=>4,
-        'bestseller'=>4,
-        'featured'=>4,
-        'blog'=>5,
-        'testimonial'=>6,
-        'image_product'=>'medium'
+        'home_product'      => 28,
+        'main_product'      => 16,
+        'related_product'   => 4,
+        'latest_product'    => 4,
+        'bestseller'        => 4,
+        'featured'          => 4,
+        'blog'              => 5,
+        'testimonial'       => 6,
+        'image_product'     => 'medium',
+        'image_slide'       => 1200,
+        'image_mainbanner'  => 750,
+        'image_sidebanner'  => 350
     ),
     'banner' => true,
     'themesColor' => false,
